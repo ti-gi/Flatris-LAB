@@ -9,16 +9,16 @@ trigger:
 variables:
  
   # Azure Resource Manager connection created during pipeline creation
-  azureSubscription: 'YourServiceConnectionName'
+  azureSubscription: 'resource'
   
   # Web app name
-  webAppName: 'YourLinuxApp'
+  webAppName: 'test-test-2222'
   
   # Resource group
-  resourceGroupName: 'YourRG'
+  resourceGroupName: 'pipelinetesttest-rg'
  
   # Environment name
-  environmentName: 'YourLinuxApp'
+  environmentName: 'test-test-2222'
  
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
